@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestAPP
 {
-	class Program
+	class View1
 	{
-		static string a = "123";
-		static void Main(string[] args)
+		public View1()
 		{
-			var v = new View1();
+			Console.WriteLine("AAA");
+			Console.ReadLine();
 		}
 	}
 }
