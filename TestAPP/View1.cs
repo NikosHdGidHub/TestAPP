@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestAPP.BL;
 
 namespace TestAPP
 {
-	class Program
+	class View1
 	{
-		static string a = "AASDDDDD";
-		static void Main(string[] args)
+		public View1()
 		{
-			var Uset = new Uset(a);
-			var v = new View1();
+			Console.WriteLine("AAA");
+			Console.ReadLine();
 		}
 	}
 }
